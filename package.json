@@ -10,12 +10,14 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.3.3",
     "file-loader": "^6.2.0",
     "hint": "^7.1.10",
     "html-webpack-plugin": "^5.5.3",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }
