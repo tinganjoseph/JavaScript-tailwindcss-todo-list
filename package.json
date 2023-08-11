@@ -1,0 +1,15 @@
+{
+  "name": "javascript-todolist",
+  "version": "1.0.0",
+  "description": "A simple and responsive Todo List application built using Vanilla JavaScript, HTML, and Tailwind CSS. It allows users to manage their tasks effortlessly, providing core functionalities to create, view, and delete tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
