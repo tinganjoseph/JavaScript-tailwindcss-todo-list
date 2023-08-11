@@ -12,14 +12,14 @@ function renderTodos() {
     const todoText = `
       <p class="text-xl">${todo}</p>
       <div class="mt-4 flex justify-end">
-        <button onclick="deleteTodo(${index})" class="bg-red-500 text-white p-1 rounded">Delete</button>
+        <button onclick="window.deleteTodo(${index})" class="bg-red-500 text-white p-1 rounded">Delete</button>
       </div>`;
     todoItem.innerHTML = todoText;
     todoList.appendChild(todoItem);
   });
 }
 
-function addTodo() {
+window.addTodo = function() {
   const value = todoInput.value;
   if (value) {
     todos.push(value);
@@ -28,7 +28,7 @@ function addTodo() {
   }
 }
 
-function deleteTodo(index) {
+window.deleteTodo = function(index) {
   todos.splice(index, 1);
   renderTodos();
 }
